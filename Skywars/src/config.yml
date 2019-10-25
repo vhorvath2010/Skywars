@@ -1,0 +1,21 @@
+min-players: 4
+min-items: 3
+max-items: 5
+kill-reward: 5
+win-reward: 10
+lobby-gamemode: ADVENTURE
+game-gamemode: SURVIVAL
+no-perm: "&4&LYou do not have permission to use that command"
+game-start: "&3&LGame starting in 5 seconds!"
+missing-arena: "&4&LCouldn't find that arena!"
+setup-error: "&4&L Something went wrong, ask an admin if they set up the plugin correctly"
+already-running: "&4&LThat arena is already running!"
+arena-full: "&4&LThat arena is full"
+low-players: "&4&LGame ending because player count is too low"
+leave-game: "&4&LYou left the game"
+lobby-tp: "&3&LYou teleported to the lobby"
+end-by-admin: "&4&LThe game has been ended by an admin"
+no-perm-kit: "&4&LYou do not have permission to use that kit"
+kit-gui-title: "&3&LKits"
+kit-not-found: "&4&LKit not found!"
+leaderboard: "&A&LCloudy Combat Leaderboard"

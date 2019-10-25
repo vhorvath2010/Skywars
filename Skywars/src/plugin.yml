@@ -1,0 +1,60 @@
+name: Skywars
+main: com.vhbob.sw.Main
+version: 1.0
+author: vhbob
+api-version: 1.13
+depend: [Vault]
+commands:
+  skywars:
+    description: The base skywars command
+    aliases: [sw, cloudycombat, cc]
+  leave:
+    aliases: [lobby]
+    description: Teleports you to the lobby
+permissions:
+  skywars.add.spawn:
+    description: allows the user to add a spawn to an arena
+  skywars.force.start:
+    description: allows the user to force start an arena
+  skywars.delete.arena:
+    description: allows the user to delete an arena
+  skywars.set.waiting.room:
+    description: allows the user to set the waiting room for an arena
+  skywars.set.lobby:
+    description: allows the user to set the lobby for all arenas
+  skywars.set.bound:
+    description: allows the user to set the bounds of a lobby
+  skywars.create.sign:
+    description: allows the user to create a sign for an arena
+  skywars.create.kit:
+    description: allows the user to create kits
+  skywars.delete.kit:
+    description: allows the user to delete kits
+  skywars.add.item:
+    description: allows the user to add items to kits
+  skywars.add.chest.item:
+    description: allows the user to add items to chest generation
+  skywars.add.rare.chest.item:
+    description: allows the user to add items to rare chests
+  skywars.add.chest.item:
+    description: allows the user to remove items from chest generation
+  skywars.add.rare.chest.item:
+    description: allows the user to remove items from rare chests
+  skywars.remove.item:
+    description: allows the user to remove items from kits
+  skywars.default.kit:
+    description: allows the user to set the default kit
+  skywars.add.chest:
+    description: allows the user to add a chest to an arena
+  skywars.add.rare.chest:
+    description: allows the user to add a rare chest to an arena
+  skywars.remove.chest:
+    description: allows the user from remove a chest from an arena
+  skywars.remove.rare.chest:
+    description: allows the user from remove a rare chest from an arena
+  skywars.reload:
+    description: allows the user to reload the plugin
+  skywars.add.kit.icon:
+    description: allows the user to set the icon for a kit
+  kit.kit:
+    description: allows the user to use a specified kit
